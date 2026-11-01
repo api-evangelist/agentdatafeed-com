@@ -1,4 +1,4 @@
-# agentdatafeed-com
+# AgentDataFeed
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,113 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentdatafeed-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentdatafeed.com/
+AgentDataFeed provides factual, source‑verified datasets for AI agents. It offers a variety of public‑sector data such as Amsterdam events, security advisories, vulnerability watches, EU and UK public tenders, funding calls, medical data, sanctions, product recalls, legislation, drug shortages, and public holidays. Users pay per query with x402 (USDC on Base) while metadata and sample records are free. Each record includes verification details and indicates if placement was paid. The service emphasizes open‑licence data and official publications, enabling AI agents to answer queries about events, security risks, procurement opportunities, and more with reliable, up‑to‑date information.
+
+**Areas:** Data · AI · PublicSector · Datasets · Payments
+
+## AgentDataFeed on APIs.io
+
+Everything profiled for AgentDataFeed is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentdatafeed-com/](https://apis.io/providers/agentdatafeed-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (15)
+
+- [AgentDataFeed Amsterdam Events API](https://apis.io/apis/agentdatafeed-com/agentdatafeed-com-amsterdam-events-api/) — The Amsterdam Events API from AgentDataFeed — 2 operation(s) for amsterdam events.
+- [AgentDataFeed Cert Advisories API](https://apis.io/apis/agentdatafeed-com/agentdatafeed-com-cert-advisories-api/) — The Cert Advisories API from AgentDataFeed — 2 operation(s) for cert advisories.
+- [AgentDataFeed Datasets API](https://apis.io/apis/agentdatafeed-com/agentdatafeed-com-datasets-api/) — The Datasets API from AgentDataFeed — 1 operation(s) for datasets.
+- [AgentDataFeed Drug Shortages API](https://apis.io/apis/agentdatafeed-com/agentdatafeed-com-drug-shortages-api/) — The Drug Shortages API from AgentDataFeed — 2 operation(s) for drug shortages.
+- [AgentDataFeed Eu Funding API](https://apis.io/apis/agentdatafeed-com/agentdatafeed-com-eu-funding-api/) — The Eu Funding API from AgentDataFeed — 2 operation(s) for eu funding.
+- [AgentDataFeed Eu Legislation API](https://apis.io/apis/agentdatafeed-com/agentdatafeed-com-eu-legislation-api/) — The Eu Legislation API from AgentDataFeed — 2 operation(s) for eu legislation.
+- [AgentDataFeed Eu Medicines API](https://apis.io/apis/agentdatafeed-com/agentdatafeed-com-eu-medicines-api/) — The Eu Medicines API from AgentDataFeed — 2 operation(s) for eu medicines.
+- [AgentDataFeed Eu Tenders API](https://apis.io/apis/agentdatafeed-com/agentdatafeed-com-eu-tenders-api/) — The Eu Tenders API from AgentDataFeed — 2 operation(s) for eu tenders.
+- [AgentDataFeed Feedback API](https://apis.io/apis/agentdatafeed-com/agentdatafeed-com-feedback-api/) — The Feedback API from AgentDataFeed — 1 operation(s) for feedback.
+- [AgentDataFeed Product Recalls API](https://apis.io/apis/agentdatafeed-com/agentdatafeed-com-product-recalls-api/) — The Product Recalls API from AgentDataFeed — 2 operation(s) for product recalls.
+- [AgentDataFeed Public Holidays API](https://apis.io/apis/agentdatafeed-com/agentdatafeed-com-public-holidays-api/) — The Public Holidays API from AgentDataFeed — 2 operation(s) for public holidays.
+- [AgentDataFeed Sanctions Entities API](https://apis.io/apis/agentdatafeed-com/agentdatafeed-com-sanctions-entities-api/) — The Sanctions Entities API from AgentDataFeed — 2 operation(s) for sanctions entities.
+- [AgentDataFeed Security Advisories API](https://apis.io/apis/agentdatafeed-com/agentdatafeed-com-security-advisories-api/) — The Security Advisories API from AgentDataFeed — 2 operation(s) for security advisories.
+- [AgentDataFeed Uk Tenders API](https://apis.io/apis/agentdatafeed-com/agentdatafeed-com-uk-tenders-api/) — The Uk Tenders API from AgentDataFeed — 2 operation(s) for uk tenders.
+- [AgentDataFeed Vulnerability Watch API](https://apis.io/apis/agentdatafeed-com/agentdatafeed-com-vulnerability-watch-api/) — The Vulnerability Watch API from AgentDataFeed — 2 operation(s) for vulnerability watch.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Agentdatafeed Com Agentic Access](https://apis.io/agentic-access/agentdatafeed-com/agentdatafeed-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AgentDataFeed API Rules](https://apis.io/rules/agentdatafeed-com/agentdatafeed-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentdatafeed Com Domain Security](https://apis.io/security/agentdatafeed-com/agentdatafeed-com-domain-security/)
+- [Agentdatafeed Com Vulnerability Disclosure](https://apis.io/security/agentdatafeed-com/agentdatafeed-com-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentdatafeed.com/)
+- [Security](https://agentdatafeed.com/.well-known/security.txt)
+
+## API Evangelist rating
+
+**Kin Score 24.4** — emerging · rubric 0.25.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 61.7 |
+| Contract quality | 38.0 |
+| Contract governance | 57.3 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 6.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 25.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 14.2** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentdatafeed-com/](https://apis.io/providers/agentdatafeed-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AgentDataFeed: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentdatafeed-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
