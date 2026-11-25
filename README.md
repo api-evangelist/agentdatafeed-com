@@ -66,7 +66,7 @@
 
 AgentDataFeed provides factual, source‑verified datasets for AI agents. It offers a variety of public‑sector data such as Amsterdam events, security advisories, vulnerability watches, EU and UK public tenders, funding calls, medical data, sanctions, product recalls, legislation, drug shortages, and public holidays. Users pay per query with x402 (USDC on Base) while metadata and sample records are free. Each record includes verification details and indicates if placement was paid. The service emphasizes open‑licence data and official publications, enabling AI agents to answer queries about events, security risks, procurement opportunities, and more with reliable, up‑to‑date information.
 
-**Areas:** Data · AI · PublicSector · Datasets · Payments
+**Areas:** Data · Artificial Intelligence · Public Sector · Datasets · Payments
 
 ## AgentDataFeed on APIs.io
 
@@ -94,11 +94,17 @@ Everything profiled for AgentDataFeed is published on APIs.io rather than in thi
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentdatafeed-com-mcp.yml](https://apis.io/servers/agentdatafeed-com/agentdatafeed-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agentdatafeed Com Agentic Access](https://apis.io/agentic-access/agentdatafeed-com/agentdatafeed-com-agentic-access/)
+- [AgentDataFeed Agentic Access](https://apis.io/agentic-access/agentdatafeed-com/agentdatafeed-com-agentic-access/)
 
 #### Governance rules (1)
 
@@ -110,8 +116,8 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentdatafeed Com Domain Security](https://apis.io/security/agentdatafeed-com/agentdatafeed-com-domain-security/)
-- [Agentdatafeed Com Vulnerability Disclosure](https://apis.io/security/agentdatafeed-com/agentdatafeed-com-vulnerability-disclosure/)
+- [AgentDataFeed Domain Security](https://apis.io/security/agentdatafeed-com/agentdatafeed-com-domain-security/)
+- [AgentDataFeed Vulnerability Disclosure](https://apis.io/security/agentdatafeed-com/agentdatafeed-com-vulnerability-disclosure/)
 
 ## Where to find this API
 
@@ -122,23 +128,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 24.4** — emerging · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 20.1** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 61.7 |
-| Contract quality | 38.0 |
-| Contract governance | 57.3 |
-| Operational transparency | 10.5 |
-| Developer ergonomics | 6.4 |
+| Discoverability | 78.3 |
+| Contract quality | 41.1 |
+| Contract governance | 15.9 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 1.8 |
 | Access clarity | 0.0 |
 
-**Agent readiness 25.9** — agent-aware
+**Agent readiness 21.8** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
@@ -147,8 +153,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | unknown |
-| Well Known Catalog | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -158,6 +164,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 14.2** — Payments
 
